@@ -1,0 +1,12 @@
+header {
+    display: flex;
+    justify-content: start;
+}
+
+header > * {
+    flex: 0 0 40vw;
+}
+
+.header__img img {
+    max-width: 64px;
+}
