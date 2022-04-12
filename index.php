@@ -6,6 +6,7 @@
     <title>Форма обратной связи</title>
 </head>
 <body>
+    <form action="action.php" method="GET" name="text_form">
     <header>
         <div class="header__img">
             <img src="http://www.amfr.ru/upload/iblock/5c8/MosPolitekh_logo_sportivnyy-klub.png" alt="mospolytech">
