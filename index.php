@@ -6,15 +6,15 @@
     <title>Форма обратной связи</title>
 </head>
 <body>
-    <form action="action.php" method="GET" name="text_form">
-    <header>
+   <header>
         <div class="header__img">
             <img src="http://www.amfr.ru/upload/iblock/5c8/MosPolitekh_logo_sportivnyy-klub.png" alt="mospolytech">
         </div>
         <h3>Feedback form</h3>
     </header>
     <main>
-        <form action="https://httpbin.org/post">
+        <form action= method="POST" name ="https://httpbin.org/post">
+            <p><input type="submit" value="Написать письмо"></p>
             <div>
                 <label for="username">Имя пользователя</label>
                 <input type="text" id="username" name="username">
