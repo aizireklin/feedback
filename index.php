@@ -13,7 +13,7 @@
         <h3>Feedback form</h3>
     </header>
     <main>
-        <form action= method="POST" name ="https://httpbin.org/post">
+        <form action="https://httpbin.org/post" method="POST">
             <p><input type="submit" value="Написать письмо"></p>
             <div>
                 <label for="username">Имя пользователя</label>
